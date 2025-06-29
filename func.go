@@ -10,7 +10,7 @@ import (
 	"strings"
 )
 
-// function take input from keyboard and returt float value
+// function take input from keyboard and return float value
 func input() (float64, error) {
 
 	inp := bufio.NewReader(os.Stdin)
